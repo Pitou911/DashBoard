@@ -1,30 +1,32 @@
-import "./userList.css";
-
-import * as React from "react";
+import React from "react";
+import "./ProductList.css";
 import { DataGrid } from "@mui/x-data-grid";
 import { Link } from "react-router-dom";
 import DeleteOutlineIcon from "@mui/icons-material/DeleteOutline";
-import { rowsData } from "../../Dummy-data";
-
+import { rowsProduct } from "../../Dummy-data";
 import { useState } from "react";
-// import axios from "axios";
-function UserList() {
+
+function ProductList() {
+  const [data, setData] = useState(rowsProduct);
+  const deleteHandler = (id) => {
+    setData(data.filter((item) => item.id !== id));
+  };
   const columns = [
     { field: "id", headerName: "ID", width: 100 },
     {
-      field: "user",
-      headerName: "User",
+      field: "product",
+      headerName: "Product",
       width: 180,
       renderCell: (params) => {
         return (
-          <div className="userListUser">
-            <img className="userListImg" src={params.row.avatar} alt="" />
-            {params.row.username}
+          <div className="productListItem">
+            <img className="productListImg" src={params.row.img} alt="" />
+            {params.row.name}
           </div>
         );
       },
     },
-    { field: "email", headerName: "Email", width: 200 },
+    { field: "stock", headerName: "Stock", width: 200 },
     {
       field: "status",
       headerName: "status",
@@ -32,8 +34,8 @@ function UserList() {
       width: 150,
     },
     {
-      field: "transaction",
-      headerName: "Transaction Volume",
+      field: "price",
+      headerName: "Price",
 
       width: 260,
     },
@@ -44,11 +46,11 @@ function UserList() {
       renderCell: (params) => {
         return (
           <>
-            <Link to={"/user/" + params.row.id}>
-              <button className="userListEdit">Edit</button>
+            <Link to={"/product/" + params.row.id}>
+              <button className="productListEdit">Edit</button>
             </Link>
             <DeleteOutlineIcon
-              className="userListDelete"
+              className="productListDelete"
               onClick={() => deleteHandler(params.row.id)}
             />
           </>
@@ -56,16 +58,8 @@ function UserList() {
       },
     },
   ];
-
-  const [data, setData] = useState(rowsData);
-  const deleteHandler = (id) => {
-    setData(data.filter((item) => item.id !== id));
-  };
-
-  /* To DO in the future fetch api to get random user */
-
   return (
-    <div className="userList">
+    <div className="productList">
       <DataGrid
         disableSelectionOnClick
         rows={data}
@@ -78,4 +72,4 @@ function UserList() {
   );
 }
 
-export default UserList;
+export default ProductList;

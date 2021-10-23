@@ -30,8 +30,8 @@ function Widgetsmall() {
             className="widgetSmImg"
           />
           <div className="widgetSmUser">
-            <span className="widgetSmUserName">Kemna Edison</span>
-            <span className="widgetSmUserTitle">Software Developer</span>
+            <span className="widgetSmUserName">Pitou Song</span>
+            <span className="widgetSmUserTitle">Software Engineer</span>
           </div>
           <button className="widgetSmButton">
             <VisibilityIcon className="widgetSmIcon" />
@@ -45,8 +45,8 @@ function Widgetsmall() {
             className="widgetSmImg"
           />
           <div className="widgetSmUser">
-            <span className="widgetSmUserName">Say Kimsung</span>
-            <span className="widgetSmUserTitle">Civil Engineer</span>
+            <span className="widgetSmUserName">Pitou Song</span>
+            <span className="widgetSmUserTitle">Software Engineer</span>
           </div>
           <button className="widgetSmButton">
             <VisibilityIcon className="widgetSmIcon" />
@@ -60,8 +60,8 @@ function Widgetsmall() {
             className="widgetSmImg"
           />
           <div className="widgetSmUser">
-            <span className="widgetSmUserName">Hong Sokun</span>
-            <span className="widgetSmUserTitle">Architecture</span>
+            <span className="widgetSmUserName">Pitou Song</span>
+            <span className="widgetSmUserTitle">Software Engineer</span>
           </div>
           <button className="widgetSmButton">
             <VisibilityIcon className="widgetSmIcon" />
@@ -75,7 +75,7 @@ function Widgetsmall() {
             className="widgetSmImg"
           />
           <div className="widgetSmUser">
-            <span className="widgetSmUserName">Souen Sopheak</span>
+            <span className="widgetSmUserName">Pitou Song</span>
             <span className="widgetSmUserTitle">Software Engineer</span>
           </div>
           <button className="widgetSmButton">

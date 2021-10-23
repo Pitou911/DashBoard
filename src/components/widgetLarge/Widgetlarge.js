@@ -39,25 +39,10 @@ function Widgetlarge() {
                 alt="User Profile"
                 className="widgetLgImg"
               />
-              <span className="widgetLgName">Hong Sokun </span>
+              <span className="widgetLgName">Song Pitou</span>
             </td>
             <td className="widgetLgDate">02 June 2021</td>
-            <td className="widgetLgAmount">$112.00</td>
-            <td className="widgetLgStatus">
-              <Button type="Decline" />
-            </td>
-          </tr>
-          <tr className="widgetLgTr">
-            <td className="widgetLgUser">
-              <img
-                src="https://png.pngitem.com/pimgs/s/130-1300253_female-user-icon-png-download-user-image-color.png"
-                alt="User Profile"
-                className="widgetLgImg"
-              />
-              <span className="widgetLgName">Michael</span>
-            </td>
-            <td className="widgetLgDate">02 June 2021</td>
-            <td className="widgetLgAmount">$92.00</td>
+            <td className="widgetLgAmount">$132.00</td>
             <td className="widgetLgStatus">
               <Button type="Pending" />
             </td>
@@ -69,12 +54,27 @@ function Widgetlarge() {
                 alt="User Profile"
                 className="widgetLgImg"
               />
-              <span className="widgetLgName">Asuna</span>
+              <span className="widgetLgName">Song Pitou</span>
             </td>
             <td className="widgetLgDate">02 June 2021</td>
-            <td className="widgetLgAmount">$222.00</td>
+            <td className="widgetLgAmount">$132.00</td>
             <td className="widgetLgStatus">
               <Button type="Approve" />
+            </td>
+          </tr>
+          <tr className="widgetLgTr">
+            <td className="widgetLgUser">
+              <img
+                src="https://png.pngitem.com/pimgs/s/130-1300253_female-user-icon-png-download-user-image-color.png"
+                alt="User Profile"
+                className="widgetLgImg"
+              />
+              <span className="widgetLgName">Song Pitou</span>
+            </td>
+            <td className="widgetLgDate">02 June 2021</td>
+            <td className="widgetLgAmount">$132.00</td>
+            <td className="widgetLgStatus">
+              <Button type="Decline" />
             </td>
           </tr>
         </tbody>

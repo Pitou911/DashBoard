@@ -48,15 +48,30 @@ export const userData = [
   },
 ];
 
+export const productData = [
+  {
+    name: "Sep",
+    Sales: 4000,
+  },
+  {
+    name: "Oct",
+    Sales: 3000,
+  },
+  {
+    name: "Nov",
+    Sales: 5000,
+  },
+];
+
 export const rowsData = [
   {
     id: 1,
-    username: "Jon Snow",
+    username: "Song Pitou",
     avatar:
       "https://png.pngitem.com/pimgs/s/130-1300253_female-user-icon-png-download-user-image-color.png",
-    email: "Jon@gmail.com",
+    email: "Song@gmail.com",
     status: "active",
-    transaction: "$110.22",
+    transaction: "$170.22",
   },
   {
     id: 2,
@@ -68,22 +83,22 @@ export const rowsData = [
     transaction: "$170.22",
   },
   {
-    id: 4,
-    username: "Kirito",
+    id: 5,
+    username: "Song Pitou",
     avatar:
       "https://png.pngitem.com/pimgs/s/130-1300253_female-user-icon-png-download-user-image-color.png",
-    email: "Kirito@gmail.com",
+    email: "Song@gmail.com",
     status: "active",
-    transaction: "$120.52",
+    transaction: "$170.22",
   },
   {
     id: 3,
-    username: "Kiritou",
+    username: "Song Pitou",
     avatar:
       "https://png.pngitem.com/pimgs/s/130-1300253_female-user-icon-png-download-user-image-color.png",
-    email: "Kiritou@gmail.com",
+    email: "Song@gmail.com",
     status: "active",
-    transaction: "$250.02",
+    transaction: "$170.22",
   },
 ];
 
@@ -111,3 +126,38 @@ export const rowsData = [
 //       console.error(err);
 //     });
 // };
+
+export const rowsProduct = [
+  {
+    id: 1,
+    name: "Airpod",
+    img: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MWP22?wid=1144&hei=1144&fmt=jpeg&qlt=80&.v=1591634795000",
+    stock: 123,
+    status: "active",
+    price: "$110.22",
+  },
+  {
+    id: 2,
+    name: "Airpod",
+    img: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MWP22?wid=1144&hei=1144&fmt=jpeg&qlt=80&.v=1591634795000",
+    stock: 123,
+    status: "active",
+    price: "$1700.22",
+  },
+  {
+    id: 4,
+    name: "Airpod",
+    img: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MWP22?wid=1144&hei=1144&fmt=jpeg&qlt=80&.v=1591634795000",
+    stock: 123,
+    status: "active",
+    price: "$1320.52",
+  },
+  {
+    id: 3,
+    name: "Airpod",
+    img: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MWP22?wid=1144&hei=1144&fmt=jpeg&qlt=80&.v=1591634795000",
+    stock: 123,
+    status: "active",
+    price: "$2250.02",
+  },
+];
