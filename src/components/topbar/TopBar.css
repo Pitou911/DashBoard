@@ -1,6 +1,6 @@
 .topbar {
   width: 100%;
-
+  min-width: 1366px;
   height: 50px;
   background-color: #191a19;
   position: sticky;
